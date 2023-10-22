@@ -1,0 +1,80 @@
+.draggable-modal {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  /* padding: 30px; */
+  overflow: auto;
+  user-select: none;
+
+  border: 3px dashed #00a4bd;
+  padding: 30px;
+  background: #eaf0f6;
+  background-clip: content-box;
+  box-shadow: inset 0 0 0 30px #cae3f3;
+  cursor: grab;
+}
+
+.draggable-modal p {
+  margin: 0;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  user-select: none;
+}
+
+.close-btn {
+  display: inline-block;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+  /* height: 34px;
+  padding: 0 13px; */
+  color: #fff;
+  vertical-align: top;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  background: #cc4d29;
+  border-color: #cc4d29;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 16px;
+  font-size: 11px;
+  :hover {
+    background: #e4461b;
+    border-color: #e4461b;
+  }
+}
+
+.open-btn {
+  display: inline-block;
+  outline: 0;
+  appearance: none;
+  padding: 0px 12px;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(9, 128, 76);
+  box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  height: 36px;
+  transition: all 150ms ease-in-out 0s;
+  :hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 97, 73);
+    box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px,
+      rgb(195 231 202) 0px 0px 0px 3px;
+  }
+}
+
+.btn-layout {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
